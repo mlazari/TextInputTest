@@ -2,8 +2,12 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import {navigationRef, isMountedRef, navigate} from './RootNavigation';
-import {DetailsScreen, HomeScreen} from './src/screens';
+import {
+  navigationRef,
+  isMountedRef,
+  navigate,
+} from './navigation/RootNavigation';
+import {DetailsScreen, HomeScreen} from './screens';
 
 const Stack = createStackNavigator();
 
