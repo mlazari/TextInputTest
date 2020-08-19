@@ -1,0 +1,1 @@
+cd ios && xcodebuild -workspace TextInputTest.xcworkspace -scheme TextInputTest -configuration Release clean archive -archivePath "buildArchive/TextInputTest.xcarchive" -sdk "iphoneos" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO && cd buildArchive && zip -r TextInputTest.xcarchive.zip TextInputTest.xcarchive
